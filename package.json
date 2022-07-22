@@ -1,0 +1,36 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "socket.io server",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "keywords": [
+    "socket.io",
+    "tic-tac-toe",
+    "game"
+  ],
+  "author": "Oluwayelu Ifeoluwa",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "express": "^4.18.1",
+    "glob": "^8.0.3",
+    "http-errors": "^2.0.0",
+    "morgan": "^1.10.0",
+    "reflect-metadata": "^0.1.13",
+    "socket-controllers": "^0.0.5",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.1",
+    "nodemon": "^2.0.18",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  }
+}
+
